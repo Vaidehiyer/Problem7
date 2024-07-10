@@ -1,0 +1,48 @@
+Script started on 2024-07-10 10:40:36+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="149" LINES="11"]
+[0;32m@Vaidehiyer [0m➜ [1;34m/workspaces/codespaces-blank [0m$ g++ Tester.cpp 
+[0;32m@Vaidehiyer [0m➜ [1;34m/workspaces/codespaces-blank [0m$ ./a.out 
+Testing Event Constructor...
+Expected: A, 10, 5
+Actual: A, 10, 5
+----------------------------------
+Testing Event Comparison Operators...
+Comparing e1 (10) and e2 (15)
+Expected: e1 < e2, e2 > e1, e1 != e2
+Actual: 1, 1, 0
+Comparing e1 (10) and e3 (5)
+Expected: e1 > e3, e3 < e1, e1 != e3
+Actual: 1, 1, 0
+Comparing e1 (10) and e1 (10)
+Expected: e1 == e1
+Actual: 1
+----------------------------------
+[0;32m@Vaidehiyer [0m➜ [1;34m/workspaces/codespaces-blank [0m$ g++ BankSimulation.cpp PrecondViolatedExcep.cpp -o BankSimulation
+[0;32m@Vaidehiyer [0m➜ [1;34m/workspaces/codespaces-blank [0m$ ./BankSimulation 
+Processing an arrival event at time: 1
+Processing an arrival event at time: 2
+Processing an arrival event at time: 4
+Processing a departure event at time: 6
+Processing a departure event at time: 11
+Processing a departure event at time: 16
+Processing an arrival event at time: 20
+Processing an arrival event at time: 22
+Processing an arrival event at time: 24
+Processing a departure event at time: 25
+Processing an arrival event at time: 26
+Processing an arrival event at time: 28
+Processing a departure event at time: 30
+Processing an arrival event at time: 30
+Processing a departure event at time: 35
+Processing a departure event at time: 40
+Processing a departure event at time: 45
+Processing a departure event at time: 50
+Processing an arrival event at time: 88
+Processing a departure event at time: 91
+Simulation ends.
+
+Final Statistics:
+  Total number of customers processed: 10
+  Average amount of time spent waiting: 5.6 minutes
+[0;32m@Vaidehiyer [0m➜ [1;34m/workspaces/codespaces-blank [0m$ exit
+
+Script done on 2024-07-10 10:41:17+00:00 [COMMAND_EXIT_CODE="0"]
